@@ -54,9 +54,11 @@ p {
 
 div#header {
   display: flex;
-  background-color: grey;
+  background-color: #0055aa;
   gap: 16px;
   align-items: center;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 nav#support-navigation {
