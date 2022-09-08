@@ -77,9 +77,10 @@ input {
 }
 
 button {
-  width: 64px;
+  width: 66px;
   height: 47px;
   background-image: url("../images/submit-button.svg");
+  background-color: transparent;
   background-size: cover;
   border: none;
 }
