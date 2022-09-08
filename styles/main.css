@@ -83,4 +83,11 @@ button {
   background-color: transparent;
   background-size: cover;
   border: none;
+  margin-left: -30px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  margin: 0;
 }
