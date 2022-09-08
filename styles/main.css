@@ -56,6 +56,7 @@ div#header {
   display: flex;
   background-color: #0055aa;
   gap: 16px;
+  justify-content: space-between;
   align-items: center;
   padding-left: 2em;
   padding-right: 2em;
