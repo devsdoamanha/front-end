@@ -115,3 +115,8 @@ form {
   list-style-position: inside;
   list-style-type: none;
 }
+
+.wrapper li {
+  color: #333;
+  font-size: 1em;
+}
