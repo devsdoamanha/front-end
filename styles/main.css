@@ -108,3 +108,8 @@ form {
   background-color: grey;
   padding: 10px;
 }
+
+.wrapper ul {
+  margin: 0;
+  padding: 0;
+}
