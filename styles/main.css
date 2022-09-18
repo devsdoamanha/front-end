@@ -105,7 +105,6 @@ form {
 }
 
 .wrapper {
-  background-color: grey;
   padding: 20px;
 }
 
@@ -119,4 +118,8 @@ form {
 .wrapper li {
   color: #333;
   font-size: 1em;
+}
+
+.wrapper li.list-title {
+  font-weight: bold;
 }
