@@ -71,7 +71,7 @@ nav#support-navigation {
   gap: 24px;
 }
 
-input {
+#header input {
   font-size: 0.875em;
   width: 454px;
   height: 2.5em;
@@ -81,7 +81,7 @@ input {
   border: none;
 }
 
-button {
+#header button {
   width: 66px;
   height: 47px;
   background-image: url("../images/submit-button.svg");
