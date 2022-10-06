@@ -103,3 +103,45 @@ form {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.wrapper {
+  padding: 20px;
+}
+
+.wrapper ul {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+  list-style-type: none;
+  list-style-image: url("../images/list-item-image.svg");
+}
+
+.wrapper li {
+  color: #333;
+  font-size: 1em;
+}
+
+.wrapper li.list-title {
+  font-weight: bold;
+  margin-top: 20px;
+  list-style-image: none;
+}
+
+.wrapper .accordion-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.wrapper .accordion-item img {
+  width: 20px;
+  height: 20px;
+}
+
+.wrapper .accordion-item-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
