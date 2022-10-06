@@ -145,3 +145,44 @@ form {
   align-items: center;
   gap: 10px;
 }
+
+#newsletter-form fieldset {
+  border: none;
+  display: flex;
+  background-color: #04335d;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#newsletter-form legend {
+  display: inline-block;
+  color: #ffffff;
+  float: left;
+}
+
+#newsletter-form label {
+  display: none;
+}
+
+#newsletter-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+#newsletter-form .form-group {
+  display: flex;
+  align-items: center;
+}
+
+#newsletter-form button {
+  background-color: #fe5b1e;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+}
