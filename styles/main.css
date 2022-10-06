@@ -154,6 +154,7 @@ form {
   justify-content: space-between;
   align-items: center;
   margin: 0;
+  padding: 20px;
 }
 
 #newsletter-form legend {
@@ -162,12 +163,20 @@ form {
   float: left;
 }
 
+#newsletter-form legend div:nth-child(1) {
+  font-weight: bold;
+}
+
+#newsletter-form legend div:nth-child(2) {
+  font-size: 0.8em;
+}
+
 #newsletter-form label {
   display: none;
 }
 
 #newsletter-form input {
-  padding: 10px;
+  padding: 15px 20px;
   border: none;
   border-radius: 5px;
 }
